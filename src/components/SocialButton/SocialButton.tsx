@@ -1,12 +1,13 @@
 import { Button, Icon } from "./styles";
 
-type Props = 
-{
-    icon:string
-}
+type Props = {
+  icon: string;
+};
 
-export default function SocialButton({icon}:Props)
-{
- return(<Button><Icon src={icon} /></Button>) 
- 
+export default function SocialButton({ icon }: Props) {
+  return (
+    <Button>
+      <Icon src={icon} />
+    </Button>
+  );
 }

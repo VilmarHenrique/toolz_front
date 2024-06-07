@@ -2,12 +2,11 @@ export const darkTheme = {
   colors: {
     primary: "rgba(0, 245, 160, 1)",
     secondary: "#040D1E",
-    background: "#041F31",
+    background: "#404040",
     backgroundMenu: "#031a29",
     borderButtonHeader: "#191919",
     backgroundFooter: "#1A1A1A",
-    gradient:
-      "linear-gradient(90deg, rgba(0,245,160,1) 0%, rgba(0,217,245,1) 100%);",
+    gradient: "linear-gradient(90deg, rgba(0,245,160,1) 0%, rgba(0,217,245,1) 100%);",
     success: "#14C38E",
     error: "#d45d5d",
     text: "#FFFFFF",

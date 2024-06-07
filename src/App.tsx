@@ -14,22 +14,11 @@ interface ThemeContextType {
 }
 export const ThemeContext = createContext({} as ThemeContextType);
 function App() {
-  const [theme, setTheme] = useState<Themes>(() => {
-    const storageValue = localStorage.getItem("GELAIN-THEME:theme-1.0.0");
-
-    if (storageValue == "light" || !storageValue) {
-      return "light";
-    } else if (storageValue == "dark") {
-      return "dark";
-    }
-  });
+  const [theme, setTheme] = useState<Themes>("light");
 
   function toogleTheme() {
     const themeNow = theme === "light" ? "dark" : "light";
-
     setTheme(themeNow);
-
-    localStorage.setItem("GELAIN-THEME:theme-1.0.0", JSON.stringify(themeNow));
   }
 
   return (

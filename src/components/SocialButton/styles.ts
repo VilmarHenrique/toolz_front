@@ -6,9 +6,9 @@ export const Button = styled.span`
   justify-content: center;
   padding: 10px;
   border: 1px solid ${({ theme }) => theme.colors.text};
-  width: 8vw;
+  width: 80px;
   max-height: 36px;
-  border-radius: 11px;
+  border-radius: 8px;
   cursor: pointer;
 `;
 
