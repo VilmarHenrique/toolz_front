@@ -21,3 +21,11 @@ npm start
 ```
 
 Isso iniciará o servidor de desenvolvimento e abrirá automaticamente a aplicação no seu navegador padrão.
+
+Para acessar o "sistema":
+
+Usuário: userteste
+
+E-mail: userteste@gmail.com
+
+Senha: password
